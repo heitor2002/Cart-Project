@@ -1,0 +1,14 @@
+header{
+    width: 100%;
+    .container{
+        padding: 15px 8px;
+        display: flex;
+        justify-content: space-around;
+        h2{
+            text-transform: uppercase;
+        }
+        .cart-icon{
+            cursor: pointer;
+        }
+    }
+}

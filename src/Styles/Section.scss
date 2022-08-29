@@ -1,0 +1,49 @@
+$dark_color: rgb(49, 49, 49);
+$grey_color: #ccc;
+$green_color: rgb(88, 116, 89);
+
+section.showcase {
+    width: 100%;
+    padding: 20px 2%;
+    main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .product {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px 8px;
+            border: 1px solid $grey_color;
+            .image_container{
+                width: 100%;
+                height: 200px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info_container{
+                width: 100%;
+                padding: 10px;
+                h2{
+                    color: $dark_color;
+                    font-size: 1.5rem;
+                }
+                h3{
+                    color: $green_color;
+                    font-size: 1rem;
+                }
+            }
+            button{
+                width: 100%;
+                border: 0;
+                height: 72px;
+                background-color: $grey_color;
+                font-size: 1.2rem;
+                color: $dark_color;
+                font-weight: 100;
+                cursor: pointer;
+            }
+        }
+    }
+}

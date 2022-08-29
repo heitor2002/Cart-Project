@@ -1,0 +1,58 @@
+div.cart_tab {
+    width: 100%;
+    max-width: 25vw;
+    min-width: 300px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    padding: 10px;
+    transition: 0.5s;
+    text-align: center;
+    color: #ccc;
+    .close_buttom {
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+    .item_cart {
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: aliceblue;
+        padding: 10px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        color: rgb(49, 49, 49);
+        .buttons {
+            display: flex;
+            align-items: center;
+            button {
+                width: 30px;
+                padding: 5px;
+                margin: 0 5px;
+                color: white;
+                background-color: rgb(184, 158, 14);
+                border: 0;
+                cursor: pointer;
+            }
+        }
+    }
+    .total_price {
+        width: 100%;
+        padding: 20px 0;
+        background-color: rgb(90, 138, 58);
+        cursor: pointer;
+    }
+}
+div.active {
+    display: block;
+    transform: translateX(0%);
+    transition: 0.5s;
+}
