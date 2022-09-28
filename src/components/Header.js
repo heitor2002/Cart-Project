@@ -1,4 +1,4 @@
-import "../Styles/Main.scss";
+import "../Styles/main.scss";
 
 const Header = (props) => {
 
