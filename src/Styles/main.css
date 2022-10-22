@@ -100,20 +100,24 @@ div.cart_tab {
   max-width: 25vw;
   min-width: 300px;
   height: 100vh;
-  background-color: #afb3b3;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #313131;
   position: fixed;
   top: 0;
   right: 0;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   padding: 10px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  color: #ccc;
 }
 
 div.cart_tab .close_buttom {
   font-size: 2rem;
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -133,6 +137,7 @@ div.cart_tab .item_cart {
           justify-content: space-between;
   border-radius: 8px;
   margin-bottom: 8px;
+  color: #313131;
 }
 
 div.cart_tab .item_cart .buttons {
@@ -154,15 +159,18 @@ div.cart_tab .item_cart .buttons button {
   cursor: pointer;
 }
 
-div.cart_tab .item_cart .total_price {
-  background-color: aqua;
+div.cart_tab .total_price {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #5a8a3a;
+  cursor: pointer;
 }
 
 div.active {
   display: block;
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-/*# sourceMappingURL=Main.css.map */
+/*# sourceMappingURL=main.css.map */
